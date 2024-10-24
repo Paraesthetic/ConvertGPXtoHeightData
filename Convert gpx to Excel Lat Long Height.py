@@ -102,7 +102,7 @@ def main(google_api_key):
     return df
 
 # Running the script
-google_api_key = 'AIzaSyD42_DLNyG7X9R2NfpQJ3noCslIALX_A4I'  # Update this with your Google API key
+google_api_key = 'INSERT API KEY'  # Update this with your Google API key
 df_result = main(google_api_key)
 if df_result is not None:
     print(df_result.head())  # Displaying the first few rows of the resulting DataFrame
